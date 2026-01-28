@@ -3,9 +3,9 @@ name: Python CI  # שם ה-Workflow שיופיע בגיטהאב
 # מתי להפעיל את ה-Workflow הזה
 on:
   push:
-    branches: [ "master" ]  # להריץ את ה-CI בכל פעם שיש push ל-branch בשם master
+    branches: [ "main" ]  # להריץ את ה-CI בכל פעם שיש push ל-branch בשם master
   pull_request:
-    branches: [ "master" ]  # להריץ את ה-CI בכל פעם שנפתח Pull Request שמכוון ל-master
+    branches: [ "main" ]  # להריץ את ה-CI בכל פעם שנפתח Pull Request שמכוון ל-master
 
 jobs:  # הגדרת המשימות שיבוצעו ב-CI
   build:  # שם המשימה (אפשר לקרוא לה איך שרוצים)
